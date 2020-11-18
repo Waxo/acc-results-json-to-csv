@@ -6,6 +6,13 @@ module.exports = function(environment) {
     environment,
     rootURL: '/',
     locationType: 'auto',
+    'ember-paper': {
+      'paper-toaster': {
+        position: 'bottom right',
+        duration: 3000,
+        toastClass: 'accrjtc-toast'
+      }
+    },
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build

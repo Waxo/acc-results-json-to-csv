@@ -1,0 +1,9 @@
+<PaperCard>
+  <FileDropzone @name="acc-json"
+                @ondrop={{action "importJson"}}
+                as |dropzone queue|>
+    <h4>Import ACC Results {{#if this.isLoaded}}{{paper-icon "done"}}{{/if}}</h4>
+  </FileDropzone>
+</PaperCard>
+
+{{yield}}
