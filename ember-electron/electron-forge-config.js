@@ -1,30 +1,24 @@
 module.exports = {
-  "make_targets": {
-    "win32": [
-      "squirrel"
-    ],
-    "darwin": [
-      "zip"
-    ],
-    "linux": [
-      "deb",
-      "rpm"
-    ]
+  make_targets: {
+    win32: ['squirrel'],
+    darwin: ['zip'],
+    linux: ['deb', 'rpm']
   },
-  "electronPackagerConfig": {
-    "packageManager": "npm"
+  electronPackagerConfig: {
+    packageManager: 'yarn',
   },
-  "electronWinstallerConfig": {
-    "name": "acc_results_json_to_csv"
+  electronWinstallerConfig: {
+    'name': 'acc_results_json_to_csv',
+    authors: 'Waxo'
   },
-  "electronInstallerDebian": {},
-  "electronInstallerRedhat": {},
-  "github_repository": {
-    "owner": "",
-    "name": ""
+  electronInstallerDebian: {},
+  electronInstallerRedhat: {},
+  github_repository: {
+    owner: '',
+    name: ''
   },
-  "windowsStoreConfig": {
-    "packageName": "",
-    "name": "accresultsjsontocsv"
+  windowsStoreConfig: {
+    packageName: '',
+    name: 'accresultsjsontocsv'
   }
 };
