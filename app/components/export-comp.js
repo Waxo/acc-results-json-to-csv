@@ -24,5 +24,6 @@ export default class ExportComp extends Component {
   @action
   async clearData() {
     this.resultsStore.clear();
+    this.paperToaster.show(`Cleared all results`);
   }
 }

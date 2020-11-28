@@ -1,3 +1,9 @@
+# 0.2.0 (2020-11-28)
+
+- Multiple files drop for qualifications now handled
+- Added notification for results cleaning
+- Fixed times when seconds or milliseconds start by 0
+
 # 0.1.0 (2020-11-28)
 
 - Updated car list

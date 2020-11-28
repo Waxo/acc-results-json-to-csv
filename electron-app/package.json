@@ -1,7 +1,7 @@
 {
   "name": "acc-results-json-to-csv",
   "productName": "acc-results-json-to-csv",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Import json with ACC bad formatting and export it to CSV",
   "main": "src/index.js",
   "scripts": {
@@ -51,6 +51,7 @@
     "electron-is-dev": "^1.2.0",
     "electron-squirrel-startup": "^1.0.0",
     "fs-extra": "^9.0.1",
+    "pad": "^3.2.0",
     "ramda": "^0.27.1"
   },
   "devDependencies": {

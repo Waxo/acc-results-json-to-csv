@@ -12,14 +12,11 @@ export default class ResultsStoreService extends Service {
     if (results.sessionType !== 'Q') {
       this.jsonImport = results;
     } else {
-      console.log(R.isEmpty(this.jsonImport));
       this.jsonImport = R.ifElse(
         R.isEmpty,
         R.always(results),
         mergeResults(results)
       )(this.jsonImport);
-      console.log(results.sessionResult.leaderBoardLines);
-      console.log(this.jsonImport.sessionResult.leaderBoardLines);
     }
   }
 
