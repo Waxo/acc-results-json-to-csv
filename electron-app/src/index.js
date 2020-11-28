@@ -58,7 +58,7 @@ app.on('ready', async () => {
   Menu.setApplicationMenu(null);
 
   // If you want to open up dev tools programmatically, call
-  mainWindow.openDevTools();
+  // mainWindow.openDevTools();
 
   // Load the ember application
   mainWindow.loadURL(emberAppURL);
