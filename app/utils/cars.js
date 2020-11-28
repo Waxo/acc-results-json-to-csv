@@ -25,6 +25,8 @@ const carsModel = {
   21: 'Honda NSX GT3 EVO',
   22: 'McLaren 720s GT3',
   23: 'Porsche 991 II GT3 R',
+  24: 'Ferrari 488 GT3 Evo',
+  25: 'Mercedes AMG GT3 (2020)',
   50: 'Alpine A110 GT4',
   51: 'Aston Martin Vantage GT4',
   52: 'Audi R8 LMS GT4',

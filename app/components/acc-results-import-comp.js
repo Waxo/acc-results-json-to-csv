@@ -5,7 +5,7 @@ import {inject as service} from '@ember/service';
 
 const fs = requireNode('fs-extra');
 
-export default class SwrtUploadComp extends Component {
+export default class accResultsImportComp extends Component {
   @service applicationStore;
   @service resultsStore;
   @service paperToaster;

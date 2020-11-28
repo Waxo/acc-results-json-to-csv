@@ -4,8 +4,8 @@ module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'acc-results-json-to-csv',
     environment,
-    rootURL: '/',
-    locationType: 'auto',
+    rootURL: process.env.EMBER_CLI_ELECTRON ? '' : process.env.EMBER_CLI_ELECTRON ? '' : process.env.EMBER_CLI_ELECTRON ? '' : '/',
+    locationType: process.env.EMBER_CLI_ELECTRON ? 'hash' : process.env.EMBER_CLI_ELECTRON ? 'hash' : process.env.EMBER_CLI_ELECTRON ? 'hash' : 'auto',
     'ember-paper': {
       'paper-toaster': {
         position: 'bottom right',

@@ -20,4 +20,9 @@ export default class ExportComp extends Component {
     fs.writeFile(path, resultsToCSV(this.resultsStore.get()));
     this.paperToaster.show(`Exported to CSV (${path})`);
   }
+
+  @action
+  async clearData() {
+    this.resultsStore.clear();
+  }
 }
