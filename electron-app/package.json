@@ -1,7 +1,7 @@
 {
   "name": "acc-results-json-to-csv",
   "productName": "acc-results-json-to-csv",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Import json with ACC bad formatting and export it to CSV",
   "main": "src/index.js",
   "scripts": {
