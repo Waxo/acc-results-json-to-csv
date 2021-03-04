@@ -7,8 +7,8 @@ const R = requireNode('ramda');
 export default class ResultsStoreService extends Service {
   jsonImport = {};
 
-  save(json) {
-    const results = parseResults(json);
+  async save(path) {
+    const results = await parseResults(path);
     if (results.sessionType !== 'Q') {
       this.jsonImport = results;
     } else {

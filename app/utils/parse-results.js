@@ -1,8 +1,5 @@
-const R = requireNode('ramda');
+const fs = requireNode('fs-extra');
 
-const parseResults = R.pipe(
-  R.replace(/[^a-zA-Z\u00C0-\u024F\u1E00-\u1EFF0-9",{}.\[\]:-]/g, ''),
-  JSON.parse
-);
+const parseResults = (filename) => fs.readJson(filename, 'utf16le');
 
 export default parseResults;

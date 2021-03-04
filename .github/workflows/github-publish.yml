@@ -26,7 +26,6 @@ jobs:
         run: yarn run make-exe
 
       - name: Create Release
-        id: create_release
         uses: marvinpinto/action-automatic-releases@latest
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
