@@ -1,3 +1,11 @@
+# 0.3.1 (2021-03-04)
+
+- Added inverted grid from results file
+
+# 0.3.0 (2021-03-04)
+
+- Added inverted grid from results file
+
 # 0.2.1 (2020-11-29)
 
 - Fixed some cars name

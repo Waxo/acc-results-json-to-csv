@@ -11,7 +11,8 @@ const resultsToInvertedGrid = R.pipe(
     R.pipe(R.length, addReversePosition),
     R.identity
   ]),
-  R.applySpec({entries: {drivers: R.identity}})
+  R.map(R.objOf('drivers')),
+  R.objOf('entries')
 );
 
 export default resultsToInvertedGrid;
